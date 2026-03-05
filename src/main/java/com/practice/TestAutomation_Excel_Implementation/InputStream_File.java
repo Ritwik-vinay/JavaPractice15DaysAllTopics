@@ -11,7 +11,7 @@ import java.io.FileInputStream;
 public class InputStream_File {
     public static void main(String [] args) {
         try{
-            FileInputStream fis = new FileInputStream(new File("data.xlsx"));
+            FileInputStream fis = new FileInputStream(new File("testData/data.xlsx"));
             Workbook workbook= new XSSFWorkbook(fis);
             Sheet sheet = workbook.getSheetAt(0);
             //iterate through rows
