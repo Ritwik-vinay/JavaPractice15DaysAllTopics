@@ -1,4 +1,4 @@
-package com.practice.pages;
+package com.practice.basics;
 
 public class interviewQ3 {
     public static void main(String[] args) {
