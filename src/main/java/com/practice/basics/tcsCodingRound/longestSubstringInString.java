@@ -21,7 +21,7 @@ public class longestSubstringInString {
             set.add(str.charAt(right));
             if (right - left + 1 > maxlen) {
                 maxlen = right - left + 1;
-                start = left;              // ← save where the window begins
+                start = left;
             }
         }
         System.out.println("Substring : " + str.substring(start, start + maxlen));
