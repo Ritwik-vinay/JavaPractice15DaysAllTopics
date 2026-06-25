@@ -6,5 +6,5 @@ public class ternaryOperator {
         int y= (x>5)?(x<10?1:2):3;
 
         System.out.println(y);
-    
+    }
 }
