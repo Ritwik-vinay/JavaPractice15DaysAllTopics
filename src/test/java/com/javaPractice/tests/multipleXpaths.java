@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -31,7 +30,7 @@ public class multipleXpaths {
         suggestion.click();
 
         // Step 4 — Print selected value
-        System.out.println("Selected: " + dynamicValue.getAttribute("value")); // ✅
+       // System.out.println("Selected: " + dynamicValue.getAttribute("value")); // ✅
 
 
         //2. By contains on class (more flexible, won't break if class changes slightly)
