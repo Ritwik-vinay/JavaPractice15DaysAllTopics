@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class anagramChecker {
     public static void main(String[] args) {
 
-        System.out.println(anagramChecker("silent","listen"));
+        System.out.println(isAnagram("silent","listen"));
 
     }
-    static boolean anagramChecker(String str1, String str2){
+    static boolean isAnagram(String str1, String str2){
         str1= str1.replaceAll("\\s+","").toLowerCase();
         str2= str2.replaceAll("\\s+" ,"").toLowerCase();
         boolean anagram;

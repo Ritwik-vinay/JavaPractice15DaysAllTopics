@@ -1,6 +1,5 @@
 package com.practice.basics.TestNewPractice;
 
-import java.util.Scanner;
 
 public class revTheSentence {
     public static void main(String[] args) {
