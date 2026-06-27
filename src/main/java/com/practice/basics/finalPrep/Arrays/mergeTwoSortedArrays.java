@@ -1,6 +1,4 @@
 package com.practice.basics.finalPrep.Arrays;
-
-import java.util.LinkedHashSet;
 import java.util.TreeSet;
 
 public class mergeTwoSortedArrays {
