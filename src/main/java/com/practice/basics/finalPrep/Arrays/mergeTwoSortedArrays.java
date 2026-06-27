@@ -9,7 +9,7 @@ public class mergeTwoSortedArrays {
     }
 
     static void sort_MergeArray(int[] a, int[] arr) {
-        TreeSet set = new TreeSet<>();
+        TreeSet<Integer> set = new TreeSet<>();
 
         for (int i = 0; i < a.length; i++) {
             set.add(a[i]);
