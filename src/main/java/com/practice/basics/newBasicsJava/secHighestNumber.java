@@ -3,9 +3,9 @@ package com.practice.basics.newBasicsJava;
 public class secHighestNumber {
     public static void main(String[] args) {
         int[] num={3,4,5,7,6,2,1};
-        secHighestNumber(num);
+        secHighestNumber_(num);
     }
-    static void secHighestNumber(int[] number){
+    static void secHighestNumber_(int[] number){
         int max= number[0];
         int secmax= number[number[0]-1];
 
