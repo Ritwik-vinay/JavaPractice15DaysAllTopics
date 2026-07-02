@@ -20,5 +20,4 @@ public class secLargest {
         }
         return sec;
     }
-    
 }
