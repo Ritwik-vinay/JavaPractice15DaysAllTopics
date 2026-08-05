@@ -7,14 +7,26 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class SeleniumHelper {
-    WebDriver driver;
+    private final WebDriver driver;
+
+    public SeleniumHelper() {
+        this.driver = null;
+    }
+
+    public SeleniumHelper(WebDriver driver) {
+        this.driver = driver;
+    }
+
     public WebElement findElementSafely(By locator) throws ElementNotFoundException {
-        try{
-            WebElement element= driver.findElement(locator);
-            return element;
-        }catch (NoSuchElementException e){
+        if (driver == null) {
+            throw new ElementNotFoundException("WebDriver is not initialized for locator " + locator.toString());
+        }
+
+        try {
+            return driver.findElement(locator);
+        } catch (NoSuchElementException e) {
             throw new ElementNotFoundException(
-                    "Element not found with locator "+ locator.toString(),e
+                    "Element not found with locator " + locator.toString(), e
             );
         }
     }
