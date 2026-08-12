@@ -28,3 +28,6 @@ bin/
 
 ### Mac OS ###
 .DS_Storetarget/
+
+# Maven build artifacts
+target/
