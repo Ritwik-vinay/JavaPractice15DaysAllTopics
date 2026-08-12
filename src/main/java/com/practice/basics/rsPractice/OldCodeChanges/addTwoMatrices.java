@@ -1,4 +1,4 @@
-package com.practice.basics.rsPractice;
+package com.practice.basics.rsPractice.OldCodeChanges;
 
 public class addTwoMatrices {
     public static void main(String[] args) {

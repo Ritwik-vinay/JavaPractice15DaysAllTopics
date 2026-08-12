@@ -1,4 +1,4 @@
-package com.practice.basics.rsPractice;
+package com.practice.basics.rsPractice.OldCodeChanges;
 
 import java.util.function.Predicate;
 

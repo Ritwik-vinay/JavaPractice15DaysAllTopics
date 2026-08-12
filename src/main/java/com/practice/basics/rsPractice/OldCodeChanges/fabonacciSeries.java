@@ -1,4 +1,4 @@
-package com.practice.basics.rsPractice;
+package com.practice.basics.rsPractice.OldCodeChanges;
 
 public class fabonacciSeries {
     public static void main(String[] args) {
