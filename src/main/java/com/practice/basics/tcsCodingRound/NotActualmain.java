@@ -1,6 +1,6 @@
 package com.practice.basics.tcsCodingRound;
 
-public class main {
+public class NotActualmain {
     public static void main(String[] args) {
         String[] str = {"tuesday", "thursday", "Sunday", "Monday"};
 
