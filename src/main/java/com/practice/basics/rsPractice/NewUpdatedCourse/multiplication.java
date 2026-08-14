@@ -7,7 +7,7 @@ public class multiplication {
     }
     static void multiplicationMethod(int number){
         int result=0;
-        for(int i=0;i<=10;i++){
+        for(int i=1;i<=10;i++){
             result= result+number;
             System.out.println(result);
         }
