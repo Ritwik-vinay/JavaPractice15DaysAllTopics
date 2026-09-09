@@ -1,4 +1,4 @@
-package com.practice.basics.newBasicsJava;
+package com.practice.newBasicsJava;
 
 import java.util.ArrayList;
 import java.util.List;

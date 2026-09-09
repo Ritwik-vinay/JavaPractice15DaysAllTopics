@@ -1,4 +1,4 @@
-package com.practice.basics.newBasicsJava;
+package com.practice.newBasicsJava;
 
 import java.util.HashMap;
 import java.util.Map;

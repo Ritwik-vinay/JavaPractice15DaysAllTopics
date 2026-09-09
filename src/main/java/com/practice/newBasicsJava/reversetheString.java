@@ -1,4 +1,4 @@
-package com.practice.basics.newBasicsJava;
+package com.practice.newBasicsJava;
 
 public class reversetheString {
     public static void main(String[] args) {
@@ -13,5 +13,5 @@ public class reversetheString {
         }
         System.out.println(rev);
     }
-    
+
 }

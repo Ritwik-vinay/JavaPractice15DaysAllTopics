@@ -1,4 +1,4 @@
-package com.practice.basics.newBasicsJava;
+package com.practice.newBasicsJava;
 
 public class revAString {
     public static void main(String[] args) {

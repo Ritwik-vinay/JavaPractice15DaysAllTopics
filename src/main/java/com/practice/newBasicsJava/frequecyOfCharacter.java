@@ -1,4 +1,4 @@
-package com.practice.basics.newBasicsJava;
+package com.practice.newBasicsJava;
 
 import java.util.HashMap;
 
@@ -6,7 +6,7 @@ public class frequecyOfCharacter {
     public static void main(String[] args) {
         String input= "Automation";
         checkFrequencyUsingHashMap(input);
-        
+
     }
     static  void checkFrequencyUsingHashMap(String input){
         char[] word=input.toLowerCase().toCharArray();

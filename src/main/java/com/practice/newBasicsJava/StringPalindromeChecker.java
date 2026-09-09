@@ -1,4 +1,4 @@
-package com.practice.basics.newBasicsJava;
+package com.practice.newBasicsJava;
 
 public class StringPalindromeChecker {
     public static void main(String[] args) {
@@ -12,10 +12,10 @@ public class StringPalindromeChecker {
 
         for(int i=ch.length-1;i>=0;i--){
             rev+=ch[i];
-            
+
         }
         System.out.println(rev );
-        //Palindrome checker conditional statement 
+        //Palindrome checker conditional statement
         if (org.equalsIgnoreCase(rev)) {
             System.out.println("It is Palindrome");
         }
@@ -24,5 +24,5 @@ public class StringPalindromeChecker {
         }
 
     }
-    
+
 }
