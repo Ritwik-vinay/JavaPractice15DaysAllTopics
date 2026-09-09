@@ -1,13 +1,13 @@
 package com.practice.basics.oldBasicsJava;
 
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
 public class ListToSetAndViseVersa {
     public static void main(String[] args) {
-        List addNames = new ArrayList();
+        List<Object> addNames = new ArrayList<>();
         addNames.add("Amit");
         addNames.add(1);
         addNames.add("Ram");
@@ -16,14 +16,13 @@ public class ListToSetAndViseVersa {
         addNames.add(3);
         addNames.add("Bhanu");
         addNames.add(4);
-        //LIST ADDING THE VALUES
-        System.out.println("Original List : \n" + addNames);
-        //LIST TO SET
-        Set uniqueName =new HashSet(addNames);
 
+        System.out.println("Original List : \n" + addNames);
+
+        Set<Object> uniqueName = new LinkedHashSet<>(addNames);
         System.out.println("Adding unique names to SET: \n" + uniqueName);
-        // SET TO LIST
-        List uniqueNameList = new ArrayList(uniqueName);
+
+        List<Object> uniqueNameList = new ArrayList<>(uniqueName);
         System.out.println("Unique Name List : \n" + uniqueNameList);
     }
 }

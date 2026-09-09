@@ -9,8 +9,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.slf4j.Logger;
 
-import static com.practice.driver.DriverManager.driver;
-
 
 public class baseTest {
     protected Logger log= LoggerUtils.getLogger(this.getClass());

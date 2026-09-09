@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class revTheString_WordWise {
     public static void main(String[] args) {
-         Scanner scanner= new Scanner(System.in);
-        System.out.println("Enter the String to Convert the word: ");
-        String input= scanner
-                .next();
-        revtheword(input);
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Enter the String to Convert the word: ");
+            String input = scanner.next();
+            revtheword(input);
+        }
     }
     static void revtheword(String input){
         input= input.toLowerCase();

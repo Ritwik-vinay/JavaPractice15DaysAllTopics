@@ -1,6 +1,5 @@
 package com.practice.basics.tcsCodingRound;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class moveAllTheZeroesArray {

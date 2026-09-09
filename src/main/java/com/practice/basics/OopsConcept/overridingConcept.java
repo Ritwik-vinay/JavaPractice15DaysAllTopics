@@ -1,7 +1,5 @@
 package com.practice.basics.OopsConcept;
 
-import org.checkerframework.checker.units.qual.C;
-
 public class overridingConcept {
     public static void main(String[] args) {
         Animal a = new Animal();

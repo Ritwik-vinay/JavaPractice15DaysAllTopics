@@ -9,8 +9,8 @@ public class findEvenAndOddInArray {
     }
 
     static void findEvenAndOdd(int[] arr){
-        ArrayList even = new ArrayList();
-        ArrayList odd = new ArrayList();
+        ArrayList<Integer> even = new ArrayList<>();
+        ArrayList<Integer> odd = new ArrayList<>();
         for (int a: arr){
             if (a%2==0){
                even.add(a);

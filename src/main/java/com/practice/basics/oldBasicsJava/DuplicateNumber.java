@@ -3,7 +3,6 @@ package com.practice.basics.oldBasicsJava;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class DuplicateNumber {
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class DuplicateNumber {
         System.out.println(dupeElement(arr));
     }
     static List<Integer> dupeElement(int[] arr){
-        Set set= new HashSet();
+        HashSet<Integer> set= new HashSet<>();
         List<Integer> dupe= new ArrayList<>();
 
         for (int num: arr){

@@ -1,7 +1,5 @@
 package com.practice.basics.tcsCodingRound;
 
-import org.checkerframework.checker.units.qual.A;
-
 import java.util.Arrays;
 
 public class sortArr {

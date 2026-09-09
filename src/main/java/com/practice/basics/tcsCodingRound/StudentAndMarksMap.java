@@ -1,10 +1,5 @@
 package com.practice.basics.tcsCodingRound;
 
-import org.apache.commons.collections4.map.LinkedMap;
-
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
 import java.util.TreeMap;
 
 public class StudentAndMarksMap {
